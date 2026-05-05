@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import api from '../api/axios';
+import api from '../api/Axios';
 import { useAuthStore } from '../store/authStore';
 
 const STATUS_COLORS = {
